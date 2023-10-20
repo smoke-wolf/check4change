@@ -33,14 +33,14 @@ Getting Started
 
 1.  Clone the repository:
 
-    bashCopy code
+    
 
     `git clone https://github.com/smoke-wolf/check4change.git
     cd your-repo-name`
 
 2.  Make the script executable:
 
-    bashCopy code
+    
 
     `chmod +x webpage_monitor.sh`
 
@@ -48,36 +48,47 @@ Getting Started
 
 -   Monitor a Webpage (using last recorded checksum):
 
-    bashCopy code
+    
 
     `./webpage_monitor.sh -m <URL>`
 
 -   Compare a Checksum and a URL:
 
-    bashCopy code
+    
 
     `./webpage_monitor.sh -c <checksum> <URL>`
 
 -   Load and Display Records:
 
-    bashCopy code
+    
 
     `./webpage_monitor.sh -l`
 
 -   Display a List of Websites with Recorded Checksums:
 
-    bashCopy code
+    
 
     `./webpage_monitor.sh -lm`
 
 Examples
 --------
+### live moniter mode (lMM)
+Run the script with the URLs you want to monitor:
+
+
+
+`./m4c.sh <URL1> [URL2] [URL3] ...`
+
+#### Example
+
+
+`./m4c.sh "https://www.theguardian.com/international" "example.com"`
 
 ### Monitor a Webpage
 
 Monitor a webpage using the last recorded checksum:
 
-bashCopy code
+
 
 `./webpage_monitor.sh -m https://example.com`
 
@@ -85,7 +96,7 @@ bashCopy code
 
 Compare a checksum with a URL to check for changes:
 
-bashCopy code
+
 
 `./webpage_monitor.sh -c <checksum> https://example.com`
 
@@ -93,7 +104,7 @@ bashCopy code
 
 Load and display recorded webpage records:
 
-bashCopy code
+
 
 `./webpage_monitor.sh -l`
 
@@ -101,7 +112,7 @@ bashCopy code
 
 Display a list of websites with recorded checksums:
 
-bashCopy code
+
 
 `./webpage_monitor.sh -lm`
 
