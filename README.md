@@ -72,6 +72,11 @@ Getting Started
 
 Examples
 --------
+
+### Ruby Mode
+`ruby ccm.rb` 
+This will load the analyzer.
+
 ### live moniter mode (lMM)
 Run the script with the URLs you want to monitor:
 
