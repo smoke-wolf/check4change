@@ -134,6 +134,6 @@ This project is licensed under the MIT License.
 Acknowledgments
 ---------------
 
--   This script was created by Maliq Barnard.
+-   This script was created by Smoke-wolf.
 
 We hope you find this tool useful for monitoring and recording webpages
